@@ -1,0 +1,14 @@
+/* public/css/input.css */
+@import "tailwindcss";
+
+@theme {
+    /* We define your custom branding colors here directly */
+    --color-safety-orange: #ff5f15;
+    --color-matte-black: #151515;
+    --color-slate-grey: #2f4f4f;
+    --color-terminal-green: #00ff41;
+
+    /* We can also define your "Technical" fonts here later */
+    --font-mono: "JetBrains Mono", monospace;
+    --font-sans: "Space Grotesk", sans-serif;
+}

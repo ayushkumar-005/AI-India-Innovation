@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+    <%- include('partials/head') %>
+    <body class="bg-matte-black text-white font-sans flex flex-col min-h-full">
+        <%- include('partials/navbar') %>
+
+        <main class="flex-grow">
+            <div class="max-w-7xl mx-auto pt-16 pb-10 px-4 text-center">
+                <h1
+                    class="text-4xl md:text-6xl font-bold font-sans tracking-tight mb-4"
+                >
+                    INFRASTRUCTURE <span class="text-gray-600">FIRST.</span
+                    ><br />
+                    INTELLIGENCE <span class="text-white">SECOND.</span>
+                </h1>
+                <p
+                    class="text-gray-400 font-mono text-sm md:text-base max-w-2xl mx-auto"
+                >
+                    We own the hardware. You rent the power.
+                    <br class="hidden md:block" />
+                    High-performance GPU clusters & localized AI development.
+                </p>
+            </div>
+
+            <div class="max-w-7xl mx-auto px-4 pb-20">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div
+                        class="relative group overflow-hidden rounded-xl border border-slate-grey bg-gray-900 h-96"
+                    >
+                        <img
+                            src="https://images.unsplash.com/photo-1695668548342-c0c1ad479aee?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            alt="Server Rack"
+                            class="absolute inset-0 w-full h-full object-cover opacity-50 group-hover:opacity-60 transition duration-500 group-hover:scale-105"
+                        />
+
+                        <div
+                            class="absolute inset-0 p-8 flex flex-col justify-between bg-gradient-to-t from-black/90 to-transparent"
+                        >
+                            <div
+                                class="font-mono text-safety-orange text-sm tracking-widest"
+                            >
+                                // PILLAR_A
+                            </div>
+
+                            <div>
+                                <h2 class="text-3xl font-bold text-white mb-2">
+                                    Buy & Rent Hardware
+                                </h2>
+                                <p class="text-gray-300 text-sm mb-6 max-w-sm">
+                                    NVIDIA A100/H100 clusters, procurement, and
+                                    physical data center setup in India.
+                                </p>
+                                <a
+                                    href="/rentals"
+                                    class="inline-block bg-safety-orange text-black font-bold px-6 py-3 rounded hover:bg-white transition"
+                                >
+                                    VIEW INVENTORY ->
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div
+                        class="relative group overflow-hidden rounded-xl border border-slate-grey bg-gray-900 h-96"
+                    >
+                        <img
+                            src="https://images.unsplash.com/photo-1555066931-4365d14bab8c"
+                            alt="Coding Screen"
+                            class="absolute inset-0 w-full h-full object-cover opacity-50 group-hover:opacity-60 transition duration-500 group-hover:scale-105"
+                        />
+
+                        <div
+                            class="absolute inset-0 p-8 flex flex-col justify-between bg-gradient-to-t from-black/90 to-transparent"
+                        >
+                            <div
+                                class="font-mono text-terminal-green text-sm tracking-widest"
+                            >
+                                // PILLAR_B
+                            </div>
+
+                            <div>
+                                <h2 class="text-3xl font-bold text-white mb-2">
+                                    Build AI Solutions
+                                </h2>
+                                <p class="text-gray-300 text-sm mb-6 max-w-sm">
+                                    Custom LLM training, document digitization,
+                                    and automated workflow software.
+                                </p>
+                                <a
+                                    href="/services"
+                                    class="inline-block border border-terminal-green text-terminal-green font-bold px-6 py-3 rounded hover:bg-terminal-green hover:text-black transition"
+                                >
+                                    EXPLORE SERVICES ->
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div
+                        class="md:col-span-2 bg-slate-grey/20 border border-slate-grey rounded-xl p-6 flex flex-col md:flex-row items-center justify-between text-center md:text-left"
+                    >
+                        <div class="mb-4 md:mb-0">
+                            <h3 class="text-white font-bold text-lg">
+                                Local Compliance Ready
+                            </h3>
+                            <p class="text-gray-400 text-sm">
+                                Data stays in India. DPDP Act Compliant Storage.
+                            </p>
+                        </div>
+
+                        <div
+                            class="flex space-x-4 text-xs font-mono text-gray-500"
+                        >
+                            <div class="flex items-center gap-2">
+                                <span
+                                    class="w-2 h-2 bg-green-500 rounded-full animate-pulse"
+                                ></span>
+                                SYSTEMS_ONLINE
+                            </div>
+                            <div class="border-l border-gray-600 pl-4">
+                                MUMBAI_REGION
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <%- include('partials/footer') %>
+    </body>
+</html>

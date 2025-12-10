@@ -1,0 +1,13 @@
+# Dependencies
+node_modules/
+
+# Environment 
+.env
+.env.local
+.env.*.local
+
+# Vercel (Deployment config)
+.vercel
+
+# Operating System Files
+.DS_Store

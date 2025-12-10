@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+    <%- include('partials/head') %>
+    <body class="bg-matte-black text-white font-sans flex flex-col min-h-full">
+        <%- include('partials/navbar') %>
+
+        <main
+            class="flex-grow flex flex-col items-center justify-center text-center px-4"
+        >
+            <h1
+                class="text-6xl md:text-9xl font-bold font-mono text-safety-orange mb-4"
+            >
+                404
+            </h1>
+            <p class="text-xl md:text-2xl font-bold font-sans mb-8">
+                SYSTEM_ERROR: <span class="text-gray-400">PAGE_NOT_FOUND</span>
+            </p>
+            <p class="text-gray-500 font-mono text-sm max-w-md mb-8">
+                The resource you requested at
+                <span class="text-terminal-green"><%= path %></span> could not
+                be located in our sector map.
+            </p>
+            <a
+                href="/"
+                class="bg-slate-grey/30 border border-slate-grey hover:bg-safety-orange hover:text-black hover:border-safety-orange text-white px-8 py-3 rounded font-bold transition font-mono"
+            >
+                RETURN_HOME ->
+            </a>
+        </main>
+
+        <%- include('partials/footer') %>
+    </body>
+</html>
